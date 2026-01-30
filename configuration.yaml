@@ -1,0 +1,124 @@
+contacts:
+  name: Jakub Novák
+  title: Student
+  email: jakubnovak.cz@outlook.cz
+  phone: "+420 792 401 927"
+  github:
+    url: https://github.com/novakjak/
+    displayText: novakjak
+
+skills:
+  - name: Programovací jazyky
+    items:
+      - Rust
+      - C#
+      - Java
+      - Kotlin
+      - Python
+      - JavaScript
+      - TypeScript
+      - SQL
+      - C
+      - Bash
+      - x86 assembler
+  - name: Databáze
+    items:
+      - MySQL
+      - MS SQL Server
+  - name: Webové technologie
+    items:
+      - React
+      - React Router
+      - Express
+      - Flask
+      - HTML
+      - CSS
+      - openAPI
+      - Bootstrap
+      - Tailwind
+  - name: Ostatní
+    items:
+      - Linux
+      - Git
+      - Vim
+      - Blender
+
+languages:
+  - name: Čeština
+    level: rodilý mluvčí
+  - name: Angličtina
+    level: C2
+
+certificates:
+  - Cisco - JavaScript Essentials 1
+  - Cisco - JavaScript Essentials 2
+  - Cambridge English - Certificate in Advanced English (CAE)
+
+jobs:
+  - position: Odborná praxe
+    company:
+      name: Technická univerzita v Liberci
+      link: https://www.tul.cz
+    description:
+      - Portování real-time operačního systému Zephyr na embedded zařízení M5Stack Fire
+      - Tvoření devicetree konfigurace
+      - Následné upstreamování
+    arbitrary_interval: "květen 2025"
+
+  - position: Odborná praxe
+    company:
+      name: Technická univerzita v Liberci
+      link: https://www.tul.cz
+    description:
+      - Přispívání do projektu linux4space
+      - Tvoření receptů pro build systém BitBake projektu Yocto
+      - Testování síťového protokolu Cubesat Spece Protocol
+      - Úpravy webových stránek
+    arbitrary_interval: "květen 2024"
+
+  - position: Brigádník
+    company:
+      name: PEAR AG s.r.o
+      link: https://imaginaryanalytics.com/
+    description:
+      - Účast na organizaci a přípravě provozu hudebního festivalu
+
+    arbitrary_interval: "červenec - srpen roků 2024 a 2025"
+
+education:
+  - place:
+      name: Střední průmyslová škola elektrotechnická Ječná
+      link: "https://spsejecna.cz/"
+    track:
+      Informační a komunikační technologie
+    note:
+      Zaměření na vývoj desktopových aplikací
+    from: "2022"
+    to: "2026"
+
+projects:
+  - name: bittorrent
+    link: https://github.com/novakjak/bittorrent
+    language: C#
+    description:
+      - Peer-to-peer client pro bittorrent protokol
+  - name: Přípojka k dálnopisné síti
+    link: https://github.com/novakjak/tty
+    language: Rust
+    description:
+      - Embedded zařízení založené na mikrokontroleru Raspberry Pi Pico
+      - Překládá ASCII <-> ITA-2
+      - Obsluhuje komunikaci s dálnopisnou ústřednou
+  - name: Conwayova hra života
+    link: https://github.com/novakjak/gameoflife
+    language: x86 assembler
+    description:
+      - Beží na bare metal bez použití operačního systému
+      - Optimalizovaná tak, aby se vešla do jednoho sektoru (512 bajtů)
+  - name: jbs
+    link: https://github.com/novakjak/jbs
+    language: Bash
+    description:
+      - Jednoduchý build systém pro Javu
+      - Podporuje překládání pouze pozměněných souborů
+      - Podporuje vytváření JAR balíčků

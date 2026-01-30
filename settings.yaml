@@ -1,0 +1,17 @@
+font:
+  size:
+    heading_huge: 22pt
+    heading_large: 16pt
+    heading: 13pt
+    description: 9pt
+    tags: 9pt
+    education_description: 9pt
+    contacts: 9pt
+  general: "Nimbus Sans"
+  minor_highlight: "Nimbus Sans"
+  title: "URW Gothic"
+  subtitle: "URW Gothic"
+
+paragraph:
+  # Distance between lines
+  leading: 4pt
