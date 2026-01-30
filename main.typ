@@ -3,6 +3,11 @@
 
 #show link: set text(blue)
 
+#set document(
+  title: "Novák Jakub",
+  author: "Jakub Novák",
+  description: "Životopis Jakuba Nováka"
+)
 #set page(
   paper: "a4",
   margin: (
